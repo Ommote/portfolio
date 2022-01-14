@@ -4,11 +4,17 @@
 // Variables
 // Colours
 $bg: #4f6d7a;
+//  #384D56 charcoal
 $col: #fafafa;
 
 // Typography
 $font: "El Messiri", sans-serif;
 $size: 60px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: $bg;
@@ -19,4 +25,15 @@ body {
 
 h1 {
   text-align: center;
+}
+
+nav {
+  background-color: #96897b;
+  height: 50px;
+  width: auto;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+button {
 }

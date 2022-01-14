@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #4f6d7a;
   color: #fafafa;
@@ -8,4 +13,12 @@ body {
 
 h1 {
   text-align: center;
+}
+
+nav {
+  background-color: #96897b;
+  height: 50px;
+  width: auto;
+  display: flex;
+  flex-direction: row-reverse;
 }
