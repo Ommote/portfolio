@@ -1,0 +1,16 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap");
+
+// Variables
+// Colours
+$bg: #4f6d7a;
+$col: #fafafa;
+
+// Typography
+$font: "El Messiri", sans-serif;
+
+body {
+  background-color: $bg;
+  color: $col;
+  font-family: $font;
+}
