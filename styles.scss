@@ -1,0 +1,12 @@
+@mixin image {
+  height: 150px;
+  width: 150px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+img {
+  @include image;
+}
