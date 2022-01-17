@@ -20,5 +20,5 @@ nav {
   height: 50px;
   width: auto;
   display: flex;
-  flex-direction: row-reverse;
+  justify-content: center;
 }
