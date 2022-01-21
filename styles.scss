@@ -1,3 +1,45 @@
+@font-face {
+  font-family: "Coco-Sharp";
+  src: url("./fonts/Coco-Sharp-Regular-trial.ttf");
+}
+
+body {
+  background-color: rgb(251, 251, 251);
+}
+
+h1 {
+  font-family: "Coco-Sharp";
+}
+
+span {
+  font-weight: bolder;
+}
+
+nav {
+  margin-top: 0px;
+  margin-bottom: 0;
+  margin-left: 77px;
+  margin-right: 87px;
+  display: flex;
+  justify-content: space-between;
+  /* align-items: flex-end; */
+  padding-bottom: 0;
+}
+
+.my-name {
+  font-size: 50px;
+  font-family: "Coco-Sharp";
+  text-transform: uppercase;
+  align-self: flex-end;
+}
+
+.job {
+  font-size: 30px;
+  font-family: "Coco-Sharp";
+  text-transform: uppercase;
+  align-self: flex-end;
+}
+
 /* PAGE GRID LAYOUT */
 .container {
   margin: 0 100px 10px 100px;
@@ -142,7 +184,7 @@
 
 img {
   height: 200px;
-  width: 230px;
+  width: 250px;
 }
 
 p {
