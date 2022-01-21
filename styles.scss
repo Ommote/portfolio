@@ -1,3 +1,78 @@
+/* PROJECTS GRID LAYOUT */
+
+.projects-grid {
+  /* margin: 20px; */
+  display: grid;
+  grid-template-columns: 230px 230px 230px 230px;
+  grid-template-rows: 200px 125px 200px;
+  grid-template-areas:
+    "a b c d"
+    "pheader . . ."
+    "e f g h";
+  column-gap: 50px;
+  /* row-gap: 10px; */
+}
+.project-title {
+  grid-area: pheader;
+  width: 1070px;
+  text-align: center;
+  align-self: center;
+
+  font-family: "Coco-Sharp";
+}
+.project-title p {
+  font-size: 50px;
+}
+.project-item {
+  font-family: "Coco-Sharp";
+  margin-bottom: 0;
+}
+
+.project-item img {
+  border-radius: 3px;
+}
+
+.a {
+  grid-area: a;
+}
+
+.b {
+  grid-area: b;
+}
+
+.c {
+  grid-area: c;
+}
+
+.d {
+  grid-area: d;
+}
+
+.e {
+  grid-area: e;
+}
+
+.f {
+  grid-area: f;
+}
+
+.g {
+  grid-area: g;
+}
+
+.h {
+  grid-area: h;
+}
+
+img {
+  height: 200px;
+  width: 230px;
+}
+
+p {
+  margin: 0;
+}
+
 /* TECH STACK FLEX BOX */
 
 .pract {
