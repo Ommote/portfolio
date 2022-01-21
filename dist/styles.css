@@ -1,9 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #454545;
+  color: #fafafa;
+  font-family: "El Messiri";
+  font-size: 25px;
+}
+
+h1 {
+  text-align: center;
+}
+
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 img {
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
+}
+
+.project {
+  background-color: pink;
+  height: 450px;
+  width: 450px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.project h4 {
+  align-self: flex-start;
+  justify-self: center;
+}
+.project:hover {
+  opacity: 0.5;
+}
+
+.info {
+  display: none;
+}
+
+.info:hover {
+  display: flex;
 }

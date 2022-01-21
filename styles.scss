@@ -1,12 +1,71 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css2?family=El+Messiri:wght@400&display=swap");
+
+// Variables
+// Colours
+$bg: #454545;
+//  #384D56 charcoal
+$col: #fafafa;
+
+// Typography
+$font: "El Messiri", sans-serif;
+$size: 25px;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $bg;
+  color: $col;
+  font-family: "El Messiri";
+  font-size: $size;
+}
+
+h1 {
+  text-align: center;
+}
+
 @mixin image {
-  height: 150px;
-  width: 150px;
+  height: 300px;
+  width: 300px;
 }
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 img {
   @include image;
+}
+
+.project {
+  background-color: pink;
+  height: 450px;
+  width: 450px;
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  & h4 {
+    align-self: flex-start;
+    justify-self: center;
+  }
+
+  &:hover {
+    opacity: 0.5;
+  }
+}
+
+// on hover image goes translucent
+
+.info {
+  display: none;
+}
+.info:hover {
+  display: flex;
 }
