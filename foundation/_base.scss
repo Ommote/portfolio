@@ -1,0 +1,25 @@
+// DISPLAY
+$display1: grid;
+$display2: flex;
+$just: center;
+
+// COLOURS
+$bgfont: rgb(251, 251, 251);
+$about: #ff931e;
+$projects: #29abe2;
+$stack: #f15a24;
+
+// TYPOGRAPHY
+@font-face {
+  $fonty: "Coco-Sharp";
+  src: url("./fonts/Coco-Sharp-Regular-trial.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: $bgfont;
+}
