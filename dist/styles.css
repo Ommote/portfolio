@@ -14,193 +14,195 @@ span {
   font-weight: bolder;
 }
 
-nav {
-  margin-top: 0px;
-  margin-bottom: 0;
-  margin-left: 77px;
-  margin-right: 87px;
-  display: flex;
-  justify-content: space-between;
-  /* align-items: flex-end; */
-  padding-bottom: 0;
-}
+@media screen and (min-width: 768px) {
+  nav {
+    margin-top: 0px;
+    margin-bottom: 0;
+    margin-left: 77px;
+    margin-right: 87px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    padding-bottom: 0;
+  }
 
-.my-name {
-  font-size: 50px;
-  font-family: "Coco-Sharp";
-  text-transform: uppercase;
-  align-self: flex-end;
-}
+  .my-name {
+    font-size: 50px;
+    font-family: "Coco-Sharp";
+    text-transform: uppercase;
+    align-self: flex-end;
+  }
 
-.job {
-  font-size: 30px;
-  font-family: "Coco-Sharp";
-  text-transform: uppercase;
-  align-self: flex-end;
-}
+  .job {
+    font-size: 30px;
+    font-family: "Coco-Sharp";
+    text-transform: uppercase;
+    align-self: flex-end;
+  }
 
-/* PAGE GRID LAYOUT */
-.container {
-  margin: 0 100px 10px 100px;
-  display: grid;
-  grid-template-columns: 350px 300px 300px;
-  grid-template-rows: 300px 400px 200px;
-  column-gap: 25px;
-  row-gap: 25px;
-  grid-template-areas: "about projects projects projects" "about projects projects projects" "about stack stack stack";
-}
+  /* PAGE GRID LAYOUT */
+  .container {
+    margin: 0 100px 10px 100px;
+    display: grid;
+    grid-template-columns: 350px 300px 300px;
+    grid-template-rows: 300px 400px 200px;
+    column-gap: 25px;
+    row-gap: 25px;
+    grid-template-areas: "about projects projects projects" "about projects projects projects" "about stack stack stack";
+  }
 
-.one {
-  grid-area: about;
-  background-color: #ff931e;
-}
+  .one {
+    grid-area: about;
+    background-color: #ff931e;
+  }
 
-.two {
-  grid-area: projects;
-  background-color: #29abe2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .two {
+    grid-area: projects;
+    background-color: #29abe2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.three {
-  grid-area: stack;
-  background-color: #f15a24;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .three {
+    grid-area: stack;
+    background-color: #f15a24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-/* ABOUT ME GRID */
-.about-grid-container {
-  display: grid;
-  grid-template-columns: 350px;
-  height: 100%;
-  grid-template-rows: auto;
-  align-items: center;
-}
+  /* ABOUT ME GRID */
+  .about-grid-container {
+    display: grid;
+    grid-template-columns: 350px;
+    height: 100%;
+    grid-template-rows: auto;
+    align-items: center;
+  }
 
-.header {
-  justify-self: center;
-  font-size: 50px;
-  font-family: "Coco-Sharp";
-}
+  .header {
+    justify-self: center;
+    font-size: 50px;
+    font-family: "Coco-Sharp";
+  }
 
-.image {
-  justify-self: center;
-}
+  .image {
+    justify-self: center;
+  }
 
-.intro {
-  width: 300px;
-  margin-left: 30px;
-  margin-right: 30px;
-  justify-self: center;
-  text-align: justify;
-  font-size: 22px;
-}
+  .intro {
+    width: 300px;
+    margin-left: 30px;
+    margin-right: 30px;
+    justify-self: center;
+    text-align: justify;
+    font-size: 22px;
+  }
 
-.contact {
-  height: 100px;
-  width: 250px;
-  display: flex;
-  justify-content: space-between;
-  justify-self: center;
-}
+  .contact {
+    height: 100px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    justify-self: center;
+  }
 
-.contact-logo {
-  font-size: 60px;
-}
+  .contact-logo {
+    font-size: 60px;
+  }
 
-/* PROJECTS GRID LAYOUT */
-.projects-grid {
-  /* margin: 20px; */
-  display: grid;
-  grid-template-columns: 230px 230px 230px 230px;
-  grid-template-rows: 200px 125px 200px;
-  grid-template-areas: "a b c d" "pheader . . ." "e f g h";
-  column-gap: 50px;
-  /* row-gap: 10px; */
-}
+  /* PROJECTS GRID LAYOUT */
+  .projects-grid {
+    /* margin: 20px; */
+    display: grid;
+    grid-template-columns: 230px 230px 230px 230px;
+    grid-template-rows: 200px 125px 200px;
+    grid-template-areas: "a b c d" "pheader . . ." "e f g h";
+    column-gap: 50px;
+    /* row-gap: 10px; */
+  }
 
-.project-title {
-  grid-area: pheader;
-  width: 1070px;
-  text-align: center;
-  align-self: center;
-  font-family: "Coco-Sharp";
-}
+  .project-title {
+    grid-area: pheader;
+    width: 1070px;
+    text-align: center;
+    align-self: center;
+    font-family: "Coco-Sharp";
+  }
 
-.project-title p {
-  font-size: 50px;
-}
+  .project-title p {
+    font-size: 50px;
+  }
 
-.project-item {
-  font-family: "Coco-Sharp";
-  margin-bottom: 0;
-}
+  .project-item {
+    font-family: "Coco-Sharp";
+    margin-bottom: 0;
+  }
 
-.project-item img {
-  border-radius: 3px;
-}
+  .project-item img {
+    border-radius: 3px;
+  }
 
-.a {
-  grid-area: a;
-}
+  .a {
+    grid-area: a;
+  }
 
-.b {
-  grid-area: b;
-}
+  .b {
+    grid-area: b;
+  }
 
-.c {
-  grid-area: c;
-}
+  .c {
+    grid-area: c;
+  }
 
-.d {
-  grid-area: d;
-}
+  .d {
+    grid-area: d;
+  }
 
-.e {
-  grid-area: e;
-}
+  .e {
+    grid-area: e;
+  }
 
-.f {
-  grid-area: f;
-}
+  .f {
+    grid-area: f;
+  }
 
-.g {
-  grid-area: g;
-}
+  .g {
+    grid-area: g;
+  }
 
-.h {
-  grid-area: h;
-}
+  .h {
+    grid-area: h;
+  }
 
-img {
-  height: 200px;
-  width: 250px;
-}
+  img {
+    height: 200px;
+    width: 250px;
+  }
 
-p {
-  margin: 0;
-}
+  p {
+    margin: 0;
+  }
 
-/* TECH STACK FLEX BOX */
-.pract {
-  height: 200px;
-  width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  /* TECH STACK FLEX BOX */
+  .pract {
+    height: 200px;
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-.symbol {
-  height: 100px;
-  width: 100px;
-  display: flex;
-  align-items: space-between;
-}
+  .symbol {
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: space-between;
+  }
 
-i {
-  font-size: 100px;
-  color: #fbfbfb;
+  i {
+    font-size: 100px;
+    color: #fbfbfb;
+  }
 }
